@@ -21,12 +21,18 @@ The analysis of the election show that:
      -  Diana DeGette
      -  Raymon Anthony Doane 
 -  The candidate results were:
-     -  Charles Casper Stockham received 23.0% of the vote and 85,213 of the votes. 
-     -  Diana DeGette received  73.8% of the vote and 272,892 of the vote.
-     -  Raymon Anthony Doane received 3.1% of the vote and 11,606 of the vote. 
+     -  Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes. 
+     -  Diana DeGette received  73.8% of the vote and 272,892 number of votes.
+     -  Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes. 
 -  The winner of the election was:
      -  Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 
-## Challenge Overview 
+## Challenge Overview
+To complete the audit the election commision requested some additional data:
+
+1. The voter turnout for each county
+2. The percentage of votes from each county out of the total count
+3. The county with the highest turnout 
 
 ## challenge Summary 
+With these results, the election commission has the data necessary to improve voter turnout in specific counties. Mainly, Arapahoe. As voter turnout increases, the code has to able to handle larger datasets and run more efficiently. For this I propose modififying two things in the code the first being, using while loops instead of for loops because they take less time to run, and second defining data structures as tuples instead of lists because they are easier to iterate over. 
