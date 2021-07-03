@@ -35,4 +35,4 @@ To complete the audit the election commision requested some additional data:
 3. The county with the highest turnout 
 
 ## challenge Summary 
-With these results, the election commission has the data necessary to improve voter turnout in specific counties. Mainly, Arapahoe. As voter turnout increases, the code has to able to handle larger datasets and run more efficiently. For this I propose modififying two things in the code the first being, using while loops instead of for loops because they take less time to run, and second defining data structures as tuples instead of lists because they are easier to iterate over. 
+With these results, the election commission has the data necessary to improve voter turnout in specific counties. Mainly, Arapahoe. To be able to use the code for any election and handle the increase in voter turnout, the code has to able to handle larger datasets and run more efficiently. For this I propose modififying two things in the code the first being, using while loops instead of for loops because they take less time to run, and second defining data structures as tuples instead of lists because they are easier to iterate over. 
