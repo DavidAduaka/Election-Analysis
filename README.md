@@ -1,19 +1,25 @@
-# Election-Analysis
+# Election-Analysis by David Aduaka 
 
-## Project Overview
+## Overview of Elelction Audit 
 A colorado Boad of Elections employee has given you the following tasks to complete eleciton audit of a recent local congressional election.
 
-1. Calculate the total number of votes cast.
-2. Get the complete list of candidates who recieved votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidiate won.
-5. Determine the winner of the election based on popular vote.
+ 1. Calculate the total number of votes cast.
+ 2. Get the complete list of candidates who recieved votes.
+ 3. Calculate the total number of votes each candidate received.
+ 4. Calculate the percentage of votes each candidiate won.
+ 5. Determine the winner of the election based on popular vote.
+
+Furthermore, as part of the Challenge, the election commission requested some additional data to complete the audit.
+
+ 1. The voter turnout for each county
+ 2. The percentage of votes from each county out of the total count
+ 3. The county with the highest turnout 
 
 ## Resources 
 -  Data Source: election_results.csv
--  Software: Python 3.7.6, Visual Studio Code, 1.57
+-  Software: Python 3.7.6, Visual Studio Code
 
-## Summary 
+## Election Audit Results  
 The analysis of the election show that:
 -  There were 369,711 votes cast in the election. 
 -  The candidates were:
@@ -26,13 +32,12 @@ The analysis of the election show that:
      -  Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes. 
 -  The winner of the election was:
      -  Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
-
-## Challenge Overview
-To complete the audit the election commision requested some additional data:
-
-1. The voter turnout for each county
-2. The percentage of votes from each county out of the total count
-3. The county with the highest turnout 
+  
+For the challenge, the analysis shows that:
+- Jefferson County had 38,885 votes, 10.5% of the total votes cast.
+- Denver County had 306,055 votes, 82.8% of the total votes cast.
+- Arapahoe County had 24,801 votes, 6.7% of the total votes cast.
+- The county with the highest turnout was Denver County.
 
 ## challenge Summary 
-With these results, the election commission has the data necessary to improve voter turnout in specific counties. Mainly, Arapahoe. To be able to use the code for any election and handle the increase in voter turnout, the code has to able to handle larger datasets and run more efficiently. For this I propose modififying two things in the code the first being, using while loops instead of for loops because they take less time to run, and second defining data structures as tuples instead of lists because they are easier to iterate over. 
+This script is robust and flexible enough to be used for any election, be it congressional or local. One instance in which the code can be modified is if there is data for several races (mayoral, city council, etc). Dictionaries of candidates can be added to the code to identify what candidates belong to which race, and cast that information to the csv file. If already present in the csv file, an empty list and dictionary method similar to the ones used can be implemented to automatically create dictionaries of the candidates for each race. Another way this code can be modified is to identify races that lead to run-off elections. Depending on the state/county law, if no candidate reaches a majority (greater than 50%), there will be a runoff elections. A variable can be added to the code called cut_off_percent, which can be referenced when modifying the code's if section and print out an f' string if the condition is met.
