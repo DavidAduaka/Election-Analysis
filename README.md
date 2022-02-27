@@ -1,7 +1,7 @@
 # Election-Analysis by David Aduaka 
 
 ## Overview of Elelction Audit 
-A colorado Boad of Elections employee has given you the following tasks to complete eleciton audit of a recent local congressional election.
+A Colorado Boad of Elections employee has given you the following tasks to complete eleciton audit of a recent local congressional election.
 
  1. Calculate the total number of votes cast.
  2. Get the complete list of candidates who recieved votes.
